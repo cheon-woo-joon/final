@@ -12,19 +12,40 @@
 <meta charset="UTF-8">
 <title>메인페이지</title>
 <script src="http://code.jquery.com/jquery-latest.js"></script>
+	<style type="text/css">
+				.in {
+		  width: 250px;
+		  padding: 12px 20px;
+		  margin: 8px 0;
+		  box-sizing: border-box;
+		}
+		.btn{
+			background-color: #ffccff;
+			font-size: 18px;
+			color: white;
+			padding: 14px 100px;
+			border-radius: 12px;
+			box-shadow: 0 0px 0px 0 rgba(0,0,0,0), 0 0px 0px 0 rgba(0,0,0,0.0);
+			font-family: monospace;
+			font-weight: bold;
+		}
+		.btn:hover {
+			background-color: #ff99ff;
+		}
+		.txt{
+			font-size: 12px;
+		}
+	</style>
 </head>
 <body>
-	
-	<div>
-		<h1>로 그 인</h1>
-		<input type="text" placeholder="아이디 입력">
-	</div>
-	<div>
-		<input type="password" placeholder="비밀번호 입력">
-	</div>
-	<div>
-	<button>로 그 인</button>
-	<button>회 원 가 입</button>
+	<div class="box">
+			<h1>로 그 인</h1>
+			<input type="text" placeholder="아이디 입력" class="in"><br>
+			<input type="password" placeholder="비밀번호 입력" class="in"><br>
+			<button class="btn">Login</button><br>
+			<a href="#" class="txt">아이디 찾기</a>
+			<a href="#" class="txt">비밀번호 찾기</a>
+			<a href="#" class="txt">회원가입</a>
 	</div>
 </body>
 </html>
