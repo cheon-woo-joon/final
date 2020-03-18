@@ -9,22 +9,28 @@
 <style>
 	#container {
 		width: 100%;
-		margin: 0px auto;
 		text-align:center;
-		border: 0px solid #bcbcbc;
+		border: 3px solid #bcbcbc;
 	}
 	#header {
-		padding: 5px;
-		margin-bottom: 5px;
-		border: 0px solid #bcbcbc;
+		padding-left:20%;
+		padding-right:20%;
+		
 		background-color: #EAEAEA;
 	}
+	#header a{
+		text-decoration: none;
+	}
+	#header .button{
+		border-radius:50%;
+	}
+
 	#content {
-		width:75%;
+		width:100%;
 		padding: 5px;
 		margin-right: 5px;
 		float: left;
-		border: 0px solid #bcbcbc;
+		border: 5px solid #bcbcbc;
 	}
 	#footer{
 		clear: both;

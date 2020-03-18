@@ -19,6 +19,16 @@
 				<a href="#">인스타그램</a>
 			</td>
 			<td>
+				<input type=text" placeholder="검색어 입력">
+				<button>검색</button>
+			</td>
+			<td name="button">
+				<button class="button button1">home</button>		
+				<button class="button button2">2</button>
+				<button	class="button button3">3</button>
+				<button	class="button button4">4</button>
+			</td>
+			<td>
 				<a href="#">로그인</a>
 			</td>
 		</tr>
