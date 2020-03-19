@@ -16,7 +16,7 @@
 	<table border="0" width="100%">
 		<tr>
 			<td>
-				<a href="#"><img src="${contextPath}/resources/image/logo.png" width="150px"></a>
+				<a href="http://localhost:8080/finalpro/main.do"><img src="${contextPath}/resources/image/logo.png" width="150px"></a>
 			</td>
 			<td>
 				<input type=text" placeholder="검색어 입력">
