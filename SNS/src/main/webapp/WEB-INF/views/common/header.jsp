@@ -39,11 +39,10 @@
 				<input  class="inputSearch" type=text" placeholder="Search">
 				<img class="search" src="${contextPath}/resources/image/search.png" height="45px">
 			</td>
-			<td name="button">
-				<button class="button button1">home</button>		
-				<button class="button button2">2</button>
-				<button	class="button button3">3</button>
-				<button	class="button button4">4</button>
+			<td>
+				<img src="${contextPath}/resources/image/home.png" height="30px">
+				<img src="${contextPath}/resources/image/heart.png" height="30px">
+				<img src="${contextPath}/resources/image/my.png" height="30px">
 			</td>
 			<td>
 				<a href="#">로그인</a>
