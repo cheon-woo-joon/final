@@ -13,6 +13,7 @@
 <title>메인페이지</title>
 <script src="http://code.jquery.com/jquery-latest.js"></script>
 	<style type="text/css">
+	body, html {height: 100%;}
 		* { margin: 0px;   padding: 0px;}	
 		.in {
 			width: 250px;
@@ -37,7 +38,12 @@
 			font-size: 12px;
 		}
 		.box{
-			background-color: #EFF8FB;
+			border: 0;
+		    padding: 0; 
+		    background-image: url('${contextPath}/resources/image/back.jpg');
+		    min-height: 100%;
+		    background-position: center;
+		    background-size: cover;
 			padding-left: 37%;
 			padding-top: 10%;
 			padding-bottom: 10%;
