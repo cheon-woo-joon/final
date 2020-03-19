@@ -7,10 +7,13 @@
 <head>
 <meta charset="UTF-8">
 <style>
+
+	*{
+		margin: 0px; padding: 0px;
+	}
 	#container {
 		width: 100%;
 		text-align:center;
-		border: 3px solid #bcbcbc;
 	}
 	#header {
 		padding-left:20%;
@@ -26,7 +29,14 @@
 	}
 
 	#content {
+<<<<<<< HEAD
 
+=======
+		width:100%;
+		padding: 5px;
+		margin-right: 5px;
+		float: left;
+>>>>>>> 388d599bbc00115bd05e7df95e2d593d216fd6e2
 	}
 	#footer{
 		clear: both;
