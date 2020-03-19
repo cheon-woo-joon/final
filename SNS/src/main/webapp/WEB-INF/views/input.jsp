@@ -10,12 +10,74 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>회원가입 페이지</title>
 </head>
+<style>
+	.btncancel, .btnok {
+		width: 125px;
+	}
+	.main{
+		padding-top:10px;
+		padding-bottom:220px;
+		border: 1px solid;
+	}
+	.id,.password,.name,.email,.gender,.button{
+		padding:5px;
+	}
+	
+</style>
 <body>
-	<h1></h1>
-	<div>
-	<img alt="aaaaa" src="${contextPath }/resources/image/" style="width: 250px;">
-	</div>
+	
+	<div class=main>
+		<h1>회원가입</h1>
+	<div class="id">
+       		<label class="username">아이디 </label>
+    	<div>
+       		<input type="text" id="username" placeholder="Username" size="35">
+    	</div>
+    </div>
+    
+    <div class="password">
+       		<label class="userpassword">비밀번호</label>
+    	<div>
+       		<input type="password" id="userpassword" placeholder="Userpassword" size="35">
+    	</div>
+    </div>
+    
+    <div class="name">
+       		<label class="username">이름 </label>
+    	<div>
+       		<input type="text" id="username" placeholder="Username" size="35">
+    	</div>
+    </div>
+    
+    <div class="phon">
+       		<label class="userphon">전화번호 </label>
+    	<div>
+       		<input type="text" id="userphon" placeholder="Phon number" size="35">
+    	</div>
+    </div>
+    
+    <div class="email">
+       		<label class="userpassword">이메일</label>
+    	<div>
+       		<input type="text" id="useremail" placeholder="Useremail" size="35">
+    	</div>
+    </div>
+    
+    <div class="gender">
+    	성별
+    	<label>남</label><input type="checkbox" id="men">
+    	<label>여</label><input type="checkbox" id="woman">
+    </div>
+    
+    <div class="button">
+    	<button class="btnok">가입하기</button>
+    	<button class="btncancel">취소</button>
+    </div>
+    
+</div>
+    
+    
 </body>
 </html>

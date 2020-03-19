@@ -26,11 +26,7 @@
 	}
 
 	#content {
-		width:100%;
-		padding: 5px;
-		margin-right: 5px;
-		float: left;
-		border: 5px solid #bcbcbc;
+
 	}
 	#footer{
 		clear: both;
