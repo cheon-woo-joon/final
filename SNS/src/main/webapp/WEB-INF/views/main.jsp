@@ -39,7 +39,7 @@
 </head>
 <body>
 	<div class="box">
-			<h1>로 그 인</h1>
+			<img src="${contextPath}/resources/image/로고.png"><br>
 			<input type="text" placeholder="아이디 입력" class="in"><br>
 			<input type="password" placeholder="비밀번호 입력" class="in"><br>
 			<button class="btn">Login</button><br>
