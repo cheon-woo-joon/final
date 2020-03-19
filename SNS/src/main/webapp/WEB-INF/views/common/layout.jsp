@@ -28,20 +28,16 @@
 	}
 
 	#content {
-<<<<<<< HEAD
-
-=======
 		width:100%;
 		padding: 5px;
 		margin-right: 5px;
 		float: left;
->>>>>>> 388d599bbc00115bd05e7df95e2d593d216fd6e2
 	}
 	#footer{
 		clear: both;
 		padding: 5px;
 		border: 0px solid #bcbcbc;
-		background-color: lightblue;
+		background-color: gray;
 	}
 </style>
 <title><tiles:insertAttribute name="title" /></title>

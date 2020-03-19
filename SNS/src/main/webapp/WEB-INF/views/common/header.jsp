@@ -11,6 +11,23 @@
 <head>
 <meta charset="UTF-8">
 <title>헤더</title>
+<style>
+		.inputSearch {
+			width: 400px;
+			padding: 12px 20px;
+			margin: 8px 0;
+			box-sizing: border-box;
+		}
+		img, input {
+   			vertical-align:middle; 
+		}
+		.search:hover {
+		background-color: #F8E6E0;
+		}
+		.line{
+			padding-left: 20%;
+		}
+</style>
 </head>
 <body>
 	<table border="0" width="100%">
@@ -18,9 +35,9 @@
 			<td>
 				<a href="#"><img src="${contextPath}/resources/image/logo.png" width="150px"></a>
 			</td>
-			<td>
-				<input type=text" placeholder="검색어 입력">
-				<button>검색</button>
+			<td class="line">
+				<input  class="inputSearch" type=text" placeholder="Search">
+				<img class="search" src="${contextPath}/resources/image/search.png" height="45px">
 			</td>
 			<td name="button">
 				<button class="button button1">home</button>		

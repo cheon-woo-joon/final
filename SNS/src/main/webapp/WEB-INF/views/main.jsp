@@ -13,24 +13,19 @@
 <title>메인페이지</title>
 <script src="http://code.jquery.com/jquery-latest.js"></script>
 	<style type="text/css">
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 		.in {
 		  width: 250px;
 		  padding: 12px 20px;
 		  margin: 8px 0;
 		  box-sizing: border-box;
-=======
-	body, html {height: 100%;}
->>>>>>> 1508f3a2bab8fc388e793f15cbe518e784ae7256
+		  }
+		body, html {height: 100%;}
 		* { margin: 0px;   padding: 0px;}	
 		.in {
 			width: 250px;
 			padding: 12px 20px;
 			margin: 8px 0;
 			box-sizing: border-box;
->>>>>>> 388d599bbc00115bd05e7df95e2d593d216fd6e2
 		}
 		.btn{
 			background-color: #CECEF6;
@@ -49,12 +44,11 @@
 			font-size: 12px;
 		}
 		.box{
-			border: 0;
-		    padding: 0; 
 		    background-image: url('${contextPath}/resources/image/back.jpg');
-		    min-height: 100%;
-		    background-position: center;
-		    background-size: cover;
+		    -webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
 			padding-left: 37%;
 			padding-top: 10%;
 			padding-bottom: 10%;
@@ -75,15 +69,6 @@
 </head>
 <body>
 	<div class="box">
-<<<<<<< HEAD
-			<img src="${contextPath}/resources/image/logo.png"><br>
-			<input type="text" placeholder="아이디 입력" class="in"><br>
-			<input type="password" placeholder="비밀번호 입력" class="in"><br>
-			<button class="btn">Login</button><br>
-			<a href="#" class="txt">아이디 찾기</a>
-			<a href="#" class="txt">비밀번호 찾기</a>
-			<a href="#" class="txt">회원가입</a>
-=======
 		<table class="box2">
 			<tr><td><img src="${contextPath}/resources/image/logo.png" width="300px"></tr>
 			<tr><td><input type="text" placeholder="아이디 입력" class="in"></tr>
@@ -95,7 +80,6 @@
 				<a href="#" class="txt">회원가입</a>
 			<tr>
 		</table>
->>>>>>> 388d599bbc00115bd05e7df95e2d593d216fd6e2
 	</div>
 </body>
 </html>
