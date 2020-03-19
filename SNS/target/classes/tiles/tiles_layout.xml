@@ -4,6 +4,7 @@
 "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
 
 <tiles-definitions>
+	<!-- 메인 로그인 페이지 -->
 	<definition name="baseLayout" template="/WEB-INF/views/common/layout.jsp">
 		<put-attribute name="title" value=""></put-attribute>
 		<put-attribute name="header" value="/WEB-INF/views/common/header.jsp"></put-attribute>
@@ -16,4 +17,22 @@
 		<put-attribute name="title" value="메인페이지"/>
 		<put-attribute name="body" value="/WEB-INF/views/main.jsp"/>
 	</definition>
+	
+	<!-- 회원 가입 페이지  -->
+ 	<definition name="baseLayoutinput" template="/WEB-INF/views/common/layout.jsp">
+		<put-attribute name="title" value=""></put-attribute>
+		<put-attribute name="header" value="/WEB-INF/views/common/header.jsp"></put-attribute>
+		<put-attribute name="side" value="/WEB-INF/views/common/side.jsp"></put-attribute>
+		<put-attribute name="body" value=""></put-attribute>
+		<put-attribute name="footer" value="/WEB-INF/views/common/footer.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="input" extends="baseLayoutinput">
+		<put-attribute name="title" value="회원가입" />	
+		<put-attribute name="body" value="/WEB-INF/views/input.jsp"></put-attribute>
+	</definition> 
+	
+	
+	
+	
 </tiles-definitions>
