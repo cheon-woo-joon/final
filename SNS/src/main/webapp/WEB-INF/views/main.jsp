@@ -13,7 +13,6 @@
 <title>메인페이지</title>
 <script src="http://code.jquery.com/jquery-latest.js"></script>
 	<style type="text/css">
-	body, html {height: 100%;}
 		* { margin: 0px;   padding: 0px;}	
 		.in {
 			width: 250px;

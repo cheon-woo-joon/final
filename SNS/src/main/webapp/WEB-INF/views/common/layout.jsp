@@ -16,10 +16,9 @@
 		text-align:center;
 	}
 	#header {
-		padding-left:20%;
+		padding-left:0%;
 		padding-right:20%;
-		
-		background-color: #EAEAEA;
+		background-color: #FAFAFA;
 	}
 	#header a{
 		text-decoration: none;
