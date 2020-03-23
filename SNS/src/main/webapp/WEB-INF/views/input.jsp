@@ -78,7 +78,7 @@
     
     <div class="button">
     	<button class="btnok">가입하기</button>
-    	<button class="btncancel">취소</button>
+    	<button class="btncancel" href="http://localhost:8080/finalpro/input">취소</button>
     </div>
     
 </div>
