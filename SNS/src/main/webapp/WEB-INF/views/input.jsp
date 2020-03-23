@@ -20,6 +20,11 @@
 		padding-top:10px;
 		padding-bottom:220px;
 		border: 1px solid;
+		background-image: url('${contextPath}/resources/image/back.jpg');
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
 	}
 	.id,.password,.name,.email,.gender,.button{
 		padding:5px;
