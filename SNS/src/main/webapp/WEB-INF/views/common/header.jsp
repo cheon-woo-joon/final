@@ -21,6 +21,7 @@
       img, input {
             vertical-align:middle; 
       }
+      tr,td{padding: 10px;}
       .search:hover {
       background-color: #F8E6E0;
       }

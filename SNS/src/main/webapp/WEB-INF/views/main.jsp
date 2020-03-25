@@ -19,7 +19,6 @@
         margin: 8px 0;
         box-sizing: border-box;
         }
-      body, html {height: 100%;}
       * { margin: 0px;   padding: 0px;}   
       .in {
          width: 250px;
@@ -62,7 +61,7 @@
          padding-left: 30px;
          padding-right: 30px;
       }
-      tr,td{
+      .tr,.td{
          padding: 10px;
       }
    </style>
@@ -70,15 +69,15 @@
 <body>
    <div class="box">
       <table class="box2">
-         <tr><td><img src="${contextPath}/resources/image/logo.png" width="300px"></tr>
-         <tr><td><input type="text" placeholder="아이디 입력" class="in"></tr>
-         <tr><td><input type="password" placeholder="비밀번호 입력" class="in"></tr>
-         <tr><td><button class="btn">Login</button></tr>
-         <tr>
-            <td><a href="#" class="txt">아이디 찾기</a>
+         <tr class="tr"><td class="td"><img src="${contextPath}/resources/image/logo.png" width="300px"></tr>
+         <tr class="tr"><td class="td"><input type="text" placeholder="아이디 입력" class="in"></tr>
+         <tr class="tr"><td class="td"><input type="password" placeholder="비밀번호 입력" class="in"></tr>
+         <tr class="tr"><td class="td"><button class="btn">Login</button></tr>
+         <tr class="tr">
+            <td class="td"><a href="#" class="txt">아이디 찾기</a>
             <a href="#" class="txt">비밀번호 찾기</a>
-            <a href="#" class="txt">회원가입</a>
-         <tr>
+            <a href="${contextPath }/input.do" class="txt">회원가입</a>
+         </tr>
       </table>
    </div>
 </body>
